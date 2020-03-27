@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>identiwidget</class>
+ <widget class="QDialog" name="identiwidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>311</width>
+    <height>275</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>identiwidget</string>
+  </property>
+  <widget class="QPushButton" name="join_PushButton">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>220</y>
+     <width>51</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>NanumGothic</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>회원가입</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="admin_Button">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>NanumGothic</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>관리자모드</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>190</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>I D</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>60</y>
+     <width>211</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>40</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Music Player</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="login_PushButton">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>190</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>NanumGothic</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>220</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>PW</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="id_LineEdit">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>190</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>220</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="join_PushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>10</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>NanumGothic</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>종료</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>admin_Button</sender>
+   <signal>clicked()</signal>
+   <receiver>identiwidget</receiver>
+   <slot>adminPB_Clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>87</x>
+     <y>40</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>130</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>login_PushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>identiwidget</receiver>
+   <slot>loginPB_Clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>253</x>
+     <y>225</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>240</x>
+     <y>198</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>join_PushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>identiwidget</receiver>
+   <slot>joinPB_Clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>230</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>231</x>
+     <y>259</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>id_LineEdit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>identiwidget</receiver>
+   <slot>id_TextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>154</x>
+     <y>218</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>121</x>
+     <y>177</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_2</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>identiwidget</receiver>
+   <slot>pw_TextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>188</x>
+     <y>257</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>192</x>
+     <y>277</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>join_PushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>identiwidget</receiver>
+   <slot>exit_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>275</x>
+     <y>29</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>277</x>
+     <y>44</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>adminPB_Clicked()</slot>
+  <slot>loginPB_Clicked()</slot>
+  <slot>joinPB_Clicked()</slot>
+  <slot>id_TextChanged(QString)</slot>
+  <slot>pw_TextChanged(QString)</slot>
+  <slot>exit_clicked()</slot>
+ </slots>
+</ui>

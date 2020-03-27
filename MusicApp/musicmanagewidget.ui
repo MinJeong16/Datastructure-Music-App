@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>musicmanagewidget</class>
+ <widget class="QDialog" name="musicmanagewidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>275</width>
+    <height>417</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>NanumGothic</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>musicmanagewidget</string>
+  </property>
+  <widget class="QLineEdit" name="pkEdit">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>43</y>
+     <width>114</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="albumEdit">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>66</y>
+     <width>114</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="typeEdit">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>89</y>
+     <width>114</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="genreEdit">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>112</y>
+     <width>114</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="titleEdit">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>135</y>
+     <width>114</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="artistEdit">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>158</y>
+     <width>114</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="producerEdit">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>181</y>
+     <width>114</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="entEdit">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>204</y>
+     <width>114</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="rdateEdit">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>227</y>
+     <width>114</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lylicsEdit">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>250</y>
+     <width>114</width>
+     <height>121</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>NanumGothic</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>음악 정보</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>380</y>
+     <width>56</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>NanumGothic</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>저장</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>46</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>NanumGothic</family>
+    </font>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>고유번호</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>앨범명</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>타입</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>장르</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>곡명</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>가수</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>프로듀서</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>소속사</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>발매일</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_10">
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>가사</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pkEdit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>musicmanagewidget</receiver>
+   <slot>pk_textChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>208</x>
+     <y>45</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>237</x>
+     <y>37</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>albumEdit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>musicmanagewidget</receiver>
+   <slot>album_textChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>169</x>
+     <y>69</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>249</x>
+     <y>72</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>typeEdit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>musicmanagewidget</receiver>
+   <slot>type_textChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>169</x>
+     <y>95</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>105</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>genreEdit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>musicmanagewidget</receiver>
+   <slot>genre_textChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>194</x>
+     <y>123</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>232</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>titleEdit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>musicmanagewidget</receiver>
+   <slot>title_textChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>163</x>
+     <y>140</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>238</x>
+     <y>147</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>artistEdit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>musicmanagewidget</receiver>
+   <slot>artist_textChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>203</x>
+     <y>169</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>234</x>
+     <y>175</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>producerEdit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>musicmanagewidget</receiver>
+   <slot>producer_textChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>196</x>
+     <y>187</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>251</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>entEdit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>musicmanagewidget</receiver>
+   <slot>ent_textChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>202</x>
+     <y>208</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>228</x>
+     <y>208</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rdateEdit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>musicmanagewidget</receiver>
+   <slot>rdate_textChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>197</x>
+     <y>232</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>232</x>
+     <y>234</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>musicmanagewidget</receiver>
+   <slot>savebutton_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>213</x>
+     <y>389</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>230</x>
+     <y>378</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lylicsEdit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>musicmanagewidget</receiver>
+   <slot>lylics_textChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>193</x>
+     <y>278</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>231</x>
+     <y>292</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>pk_textChanged(QString)</slot>
+  <slot>album_textChanged(QString)</slot>
+  <slot>type_textChanged(QString)</slot>
+  <slot>genre_textChanged(QString)</slot>
+  <slot>title_textChanged(QString)</slot>
+  <slot>producer_textChanged(QString)</slot>
+  <slot>ent_textChanged(QString)</slot>
+  <slot>artist_textChanged(QString)</slot>
+  <slot>rdate_textChanged(QString)</slot>
+  <slot>lylics_textChanged(QString)</slot>
+  <slot>savebutton_clicked()</slot>
+ </slots>
+</ui>

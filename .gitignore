@@ -1,0 +1,7 @@
+*.pri
+*.pro
+*.qrc
+*.sln
+*.vcxproj
+*.filters
+*.user
